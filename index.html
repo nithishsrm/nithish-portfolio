@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithish - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">NITHISH</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>NITHISH</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">🏠 Home</a></li>
+                <li><a href="#about" class="nav-link">👨‍💻 About</a></li>
+                <li><a href="#education" class="nav-link">🎓 Education</a></li>
+                <li><a href="#skills" class="nav-link">⚡ Skills</a></li>
+                <li><a href="#projects" class="nav-link">🚀 Projects</a></li>
+                <li><a href="#contact" class="nav-link">📞 Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-circle">
+                        <img src="profile.jpg" alt="Nithish" class="profile-image">
+                    </div>
+                </div>
+                <h1 class="hero-title">NITHISH</h1>
+                <p class="hero-subtitle">Software Developer</p>
+                <p class="hero-role">Full Stack Developer</p>
+                <div class="hero-description">
+                    <p>A passionate software developer with expertise in both frontend and backend technologies. I create innovative solutions that solve real-world problems.</p>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="download-cv">📄 Download Resume</button>
+                    <button class="btn btn-secondary" id="contact-btn">💬 Get In Touch</button>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <div class="scroll-arrow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">👨‍💻 About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm Nithish, a passionate Software Developer with expertise in full-stack development. I enjoy building scalable applications, solving complex problems, and continuously learning new technologies.</p>
+                    <p>With a strong foundation in software development, I've specialized in creating robust, user-friendly applications that deliver exceptional user experiences.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or working on innovative solutions to real-world challenges.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">6+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">🎓 Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's Degree in Computer Science</h3>
+                        <p class="institution">SRM Institute of Science and Technology</p>
+                        <p class="duration">2021 - 2025</p>
+                        <p class="achievement">Computer Science Major</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>High School Diploma</h3>
+                        <p class="institution">Your High School Name</p>
+                        <p class="duration">2019 - 2021</p>
+                        <p class="achievement">Science Stream</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Certifications & Training</h3>
+                        <p class="institution">Various Online Platforms</p>
+                        <p class="duration">2021 - Present</p>
+                        <p class="achievement">Web Development & Programming</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">⚡ Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React.js</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="85"></div>
+                        </div>
+                        <span class="progress-text">85%</span>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript/TypeScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="80"></div>
+                        </div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="75"></div>
+                        </div>
+                        <span class="progress-text">75%</span>
+                    </div>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Node.js & Express</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="70"></div>
+                        </div>
+                        <span class="progress-text">70%</span>
+                    </div>
+                    <p class="skill-level">Intermediate</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📦</div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-percent="80"></div>
+                        </div>
+                        <span class="progress-text">80%</span>
+                    </div>
+                    <p class="skill-level">Advanced</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">🚀 Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🚀</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal portfolio website built with modern web technologies, featuring responsive design and interactive animations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">📱</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Real-time collaborative task management application with drag-and-drop interface, team features, and progress tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🤖</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chat Application</h3>
+                        <p>Intelligent chatbot application with natural language processing, sentiment analysis, and customizable responses.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">OpenAI API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">📞 Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>nithishk@srmasc.ac.in</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+91 (XXX) XXX-XXXX</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Chennai, Tamil Nadu</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <span class="social-icon">🔗</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">📧</span>
+                            <span>Email</span>
+                        </a>
+                        <a href="#" class="social-link">
+                            <span class="social-icon">📱</span>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NITHISH</h4>
+                    <p>Software Developer passionate about creating innovative digital solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link">🔗</a>
+                        <a href="#" class="footer-social-link">🐙</a>
+                        <a href="#" class="footer-social-link">📧</a>
+                        <a href="#" class="footer-social-link">📱</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nithish. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
